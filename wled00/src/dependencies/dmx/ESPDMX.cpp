@@ -28,7 +28,8 @@
 #define BREAKFORMAT    SERIAL_8N1
 
 bool dmxStarted = false;
-int sendPin = 2;		//dafault on ESP8266
+int sendPin = 17;		//TX on WT32-ETH01
+// int sendPin = 2;		//dafault on ESP8266
 
 //DMX value array and size. Entry 0 will hold startbyte
 uint8_t dmxDataStore[dmxMaxChannel] = {};
